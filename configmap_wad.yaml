@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+data:
+  index.html: |
+    <html>
+    <head>
+        <title>Nginx WAD</title>
+    </head>
+    <body>
+        <h1>Hey fellow WeAreDevelopers enjoyers !</h1>
+    </body>
+    </html>
